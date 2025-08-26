@@ -1,0 +1,83 @@
+
+\documentclass{beamer}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{mwe} % para 'example-image' como imagen de muestra
+
+\title{semanal 2}
+\author{KevimBr}
+\date{22/08/2025}
+
+\begin{document}
+
+% --- DIAPOSITIVA 1 ---
+\begin{frame}[fragile]
+  \frametitle{Kevin Rafael Buenrostro Rodríguez}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.6\textwidth]{20241223_210050.jpg}
+  \caption{mis perritos}
+  \label{fig:mi-imagen}
+\end{figure}
+
+
+\end{frame}
+
+% Segunda diapositiva (Teorema de Dirac)
+\begin{frame}{Teorema de Dirac}
+  \textbf{Enunciado:}  
+  El Teorema de Dirac, en teoría de grafos, establece que un grafo simple y conexo con al menos tres vértices, 
+  donde cada vértice tiene un grado mayor o igual a la mitad del número total de vértices, es hamiltoniano.  
+
+  \medskip
+  En otras palabras: si cada vértice tiene suficientes conexiones, entonces existe un ciclo que pasa por todos los vértices exactamente una vez.  
+
+  \medskip
+  \textit{Escogí este teorema porque me recordó al reto del "trazo con un solo trazo" que vimos en secundaria, 
+  pero ahora con razones matemáticas.}
+
+\cite{dirac1952}
+\end{frame}
+
+
+% Tercera diapositiva (resolver ecuación )
+
+\begin{frame}{Resolviendo la ecuación}
+  Resolver la ecuación:
+  \[
+     \frac{3}{4}x + 9 = 15
+  \]
+
+  \begin{align*}
+     \frac{3}{4}x + 9 &= 15 \\[6pt]
+     \frac{3}{4}x &= 15 - 9 \\[6pt]
+     \frac{3}{4}x &= 6 \\[6pt]
+     x &= \frac{6 \cdot 4}{3} \\[6pt]
+     x &= 8
+  \end{align*}
+
+  \cite{stewart2015}
+\end{frame}
+
+% --- REFERENCIAS ---
+\begin{frame}
+  \frametitle{Referencias}
+  \begin{thebibliography}{9}
+
+  \bibitem{Dirac theorem}
+    \textit Dirac, G.A. (1952). Some theorems on abstract graphs. 
+    \emph{Proceedings of the London Mathematical Society}, 2(1), 69–81.
+
+  \end{thebibliography}
+\end{frame}
+
+\bibliographystyle{plain}
+\bibliography{referencias}
+
+
+\end{document}
