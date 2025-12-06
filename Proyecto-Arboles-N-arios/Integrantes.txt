@@ -1,0 +1,10 @@
+Proyecto: Árboles N-arios
+
+EQUIPO: [Ponle un nombre creativo si tienen, si no, déjalo en blanco]
+
+INTEGRANTES:
+1. [Tu Nombre Completo] - [Tu Número de Cuenta (Opcional pero recomendado)]
+2. [Nombre Completo Compañero 1]
+3. [Nombre Completo Compañero 2]
+
+ENLACE AL REPOSITORIO:
